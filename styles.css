@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 128px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 144px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 60px;
+}
+
+footer {
+    text-align: center;
+}
