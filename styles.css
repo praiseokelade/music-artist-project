@@ -9,11 +9,28 @@ body {
   margin: 0 auto;
 }
 
-.content {
+.primary {
   max-width: 1200px;
   margin: 0 auto;
   padding: 70px 20px;
   background-color: #fff;
+}
+
+.secondary {
+  background-color: #c1ecdd;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 20px;
+}
+
+.secondary h2 {
+  padding-left: 10px;
+  margin-left: 550px;
+}
+
+.secondary h3 {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 header {
@@ -88,6 +105,68 @@ main p {
   line-height: 26px;
 }
 
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px 0px #07051433;
+}
+
+.card-body {
+  padding: 24px 32px;
+}
+
+.card h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.card h5 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card-footer {
+  margin: 24px;
+}
+
+.title {
+  border-bottom: 1px solid #eeebf8;
+}
+
+.release-date {
+  padding-top: 12px;
+  gap: 8px;
+}
+
+.lyrics {
+  padding-top: 24px;
+  gap: 8px;
+}
+
+.discography-buttons {
+  padding: 16px 32px;
+  border-radius: 5px;
+  background-color: rgb(20, 108, 99);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 24px;
+  display: block;
+}
+
 footer {
   font-size: 14px;
   color: #fff;
@@ -101,6 +180,11 @@ footer {
 .grid {
   display: grid;
   grid-gap: 40px;
+}
+
+.discography-cards {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
 }
 
 .why-section {
