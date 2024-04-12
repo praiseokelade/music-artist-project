@@ -9,30 +9,6 @@ body {
   margin: 0 auto;
 }
 
-.primary {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 70px 20px;
-  background-color: #fff;
-}
-
-.secondary {
-  background-color: #c1ecdd;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 70px 20px;
-}
-
-.secondary h2 {
-  padding-left: 10px;
-  margin-left: 550px;
-}
-
-.secondary h3 {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
     url("images/calledout-hero-picture.jpg");
@@ -103,6 +79,31 @@ main p {
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.primary {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 20px;
+  background-color: #fff;
+}
+
+.secondary {
+  background-color: #c1ecdd;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 20px;
+}
+
+.secondary h2 {
+  margin: 0 auto;
+  width: 120px;
+  margin-bottom: 12px;
+}
+
+.secondary h3 {
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .card {
