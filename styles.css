@@ -9,6 +9,11 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 40px;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
     url("images/calledout-hero-picture.jpg");
@@ -88,6 +93,10 @@ main p {
   background-color: #fff;
 }
 
+.why-section {
+  grid-template-columns: 1fr 1fr;
+}
+
 .secondary {
   background-color: #c1ecdd;
   max-width: 1200px;
@@ -113,7 +122,7 @@ main p {
 }
 
 .card-body {
-  padding: 24px 32px;
+  padding: 10px 32px 24px 32px;
 }
 
 .card h4 {
@@ -138,8 +147,20 @@ main p {
   margin: 24px;
 }
 
+.discography-cards {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.discography-videos {
+  width: 100%;
+  height: 290px;
+  aspect-ratio: 16 / 9;
+}
+
 .title {
   border-bottom: 1px solid #eeebf8;
+  margin-top: 0;
 }
 
 .release-date {
@@ -168,6 +189,29 @@ main p {
   display: block;
 }
 
+.tertiary {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 20px;
+  background-color: #fff;
+}
+
+.tertiary h2 {
+  margin: 0 auto;
+  width: 120px;
+  margin-bottom: 12px;
+}
+
+.tertiary h3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.more-songs {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
 footer {
   font-size: 14px;
   color: #fff;
@@ -176,20 +220,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 35px;
-}
-
-.grid {
-  display: grid;
-  grid-gap: 40px;
-}
-
-.discography-cards {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
-}
-
-.why-section {
-  grid-template-columns: 1fr 1fr;
 }
 
 .footer-container {
